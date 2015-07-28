@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'arvobold';
+    src: url('../fonts/arvo-bold_201-webfont.eot');
+    src: url('../fonts/arvo-bold_201-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/arvo-bold_201-webfont.woff2') format('woff2'),
+         url('../fonts/arvo-bold_201-webfont.woff') format('woff'),
+         url('../fonts/arvo-bold_201-webfont.ttf') format('truetype'),
+         url('../fonts/arvo-bold_201-webfont.svg#arvobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'arvobold_italic';
+    src: url('../fonts/arvo-bolditalic_201-webfont.eot');
+    src: url('../fonts/arvo-bolditalic_201-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/arvo-bolditalic_201-webfont.woff2') format('woff2'),
+         url('../fonts/arvo-bolditalic_201-webfont.woff') format('woff'),
+         url('../fonts/arvo-bolditalic_201-webfont.ttf') format('truetype'),
+         url('../fonts/arvo-bolditalic_201-webfont.svg#arvobold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'arvoitalic';
+    src: url('../fonts/arvo-italic_201-webfont.eot');
+    src: url('../fonts/arvo-italic_201-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/arvo-italic_201-webfont.woff2') format('woff2'),
+         url('../fonts/arvo-italic_201-webfont.woff') format('woff'),
+         url('../fonts/arvo-italic_201-webfont.ttf') format('truetype'),
+         url('../fonts/arvo-italic_201-webfont.svg#arvoitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'arvoregular';
+    src: url('../fonts/arvo-regular_201-webfont.eot');
+    src: url('../fonts/arvo-regular_201-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/arvo-regular_201-webfont.woff2') format('woff2'),
+         url('../fonts/arvo-regular_201-webfont.woff') format('woff'),
+         url('../fonts/arvo-regular_201-webfont.ttf') format('truetype'),
+         url('../fonts/arvo-regular_201-webfont.svg#arvoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.eot');
+    src: url('../fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-regular-webfont.woff') format('woff'),
+         url('../fonts/montserrat-regular-webfont.ttf') format('truetype'),
+         url('../fonts/montserrat-regular-webfont.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratblack';
+    src: url('../fonts/montserrat-black-webfont.eot');
+    src: url('../fonts/montserrat-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat-black-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-black-webfont.woff') format('woff'),
+         url('../fonts/montserrat-black-webfont.ttf') format('truetype'),
+         url('../fonts/montserrat-black-webfont.svg#montserratblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('../fonts/montserrat-bold-webfont.eot');
+    src: url('../fonts/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat-bold-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-bold-webfont.woff') format('woff'),
+         url('../fonts/montserrat-bold-webfont.ttf') format('truetype'),
+         url('../fonts/montserrat-bold-webfont.svg#montserratbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratlight';
+    src: url('../fonts/montserrat-light-webfont.eot');
+    src: url('../fonts/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat-light-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-light-webfont.woff') format('woff'),
+         url('../fonts/montserrat-light-webfont.ttf') format('truetype'),
+         url('../fonts/montserrat-light-webfont.svg#montserratlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:url('../fonts/icomoon.eot?-gn9xq8');
+  src:url('../fonts/icomoon.eot?#iefix-gn9xq8') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?-gn9xq8') format('truetype'),
+    url('../fonts/icomoon.woff?-gn9xq8') format('woff'),
+    url('../fonts/icomoon.svg?-gn9xq8#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-heart-outlined:before {
+  content: "\e60c";
+}
+.icon-heart2:before {
+  content: "\e60d";
+}
+.icon-heart:before {
+  content: "\e60b";
+}
+.icon-twitter2:before {
+  content: "\e608";
+}
+.icon-twitter3:before {
+  content: "\e609";
+}
+.icon-twitter4:before {
+  content: "\e60a";
+}
+.icon-facebook2:before {
+  content: "\e602";
+}
+.icon-facebook3:before {
+  content: "\e603";
+}
+.icon-github:before {
+  content: "\e604";
+}
+.icon-github2:before {
+  content: "\e605";
+}
+.icon-github3:before {
+  content: "\e606";
+}
+.icon-github4:before {
+  content: "\e607";
+}
+.icon-twitter:before {
+  content: "\e600";
+}
+.icon-facebook:before {
+  content: "\e601";
+}
+

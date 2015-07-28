@@ -1,0 +1,514 @@
+/* line 5, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: 'arvobold';
+  src: url("../fonts/arvo-bold_201-webfont.eot");
+  src: url("../fonts/arvo-bold_201-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/arvo-bold_201-webfont.woff2") format("woff2"), url("../fonts/arvo-bold_201-webfont.woff") format("woff"), url("../fonts/arvo-bold_201-webfont.ttf") format("truetype"), url("../fonts/arvo-bold_201-webfont.svg#arvobold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'arvobold_italic';
+  src: url("../fonts/arvo-bolditalic_201-webfont.eot");
+  src: url("../fonts/arvo-bolditalic_201-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/arvo-bolditalic_201-webfont.woff2") format("woff2"), url("../fonts/arvo-bolditalic_201-webfont.woff") format("woff"), url("../fonts/arvo-bolditalic_201-webfont.ttf") format("truetype"), url("../fonts/arvo-bolditalic_201-webfont.svg#arvobold_italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'arvoitalic';
+  src: url("../fonts/arvo-italic_201-webfont.eot");
+  src: url("../fonts/arvo-italic_201-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/arvo-italic_201-webfont.woff2") format("woff2"), url("../fonts/arvo-italic_201-webfont.woff") format("woff"), url("../fonts/arvo-italic_201-webfont.ttf") format("truetype"), url("../fonts/arvo-italic_201-webfont.svg#arvoitalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'arvoregular';
+  src: url("../fonts/arvo-regular_201-webfont.eot");
+  src: url("../fonts/arvo-regular_201-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/arvo-regular_201-webfont.woff2") format("woff2"), url("../fonts/arvo-regular_201-webfont.woff") format("woff"), url("../fonts/arvo-regular_201-webfont.ttf") format("truetype"), url("../fonts/arvo-regular_201-webfont.svg#arvoregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserratregular';
+  src: url("../fonts/montserrat-regular-webfont.eot");
+  src: url("../fonts/montserrat-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-regular-webfont.woff2") format("woff2"), url("../fonts/montserrat-regular-webfont.woff") format("woff"), url("../fonts/montserrat-regular-webfont.ttf") format("truetype"), url("../fonts/montserrat-regular-webfont.svg#montserratregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserratblack';
+  src: url("../fonts/montserrat-black-webfont.eot");
+  src: url("../fonts/montserrat-black-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-black-webfont.woff2") format("woff2"), url("../fonts/montserrat-black-webfont.woff") format("woff"), url("../fonts/montserrat-black-webfont.ttf") format("truetype"), url("../fonts/montserrat-black-webfont.svg#montserratblack") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserratbold';
+  src: url("../fonts/montserrat-bold-webfont.eot");
+  src: url("../fonts/montserrat-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-bold-webfont.woff2") format("woff2"), url("../fonts/montserrat-bold-webfont.woff") format("woff"), url("../fonts/montserrat-bold-webfont.ttf") format("truetype"), url("../fonts/montserrat-bold-webfont.svg#montserratbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserratlight';
+  src: url("../fonts/montserrat-light-webfont.eot");
+  src: url("../fonts/montserrat-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-light-webfont.woff2") format("woff2"), url("../fonts/montserrat-light-webfont.woff") format("woff"), url("../fonts/montserrat-light-webfont.ttf") format("truetype"), url("../fonts/montserrat-light-webfont.svg#montserratlight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?-gn9xq8");
+  src: url("../fonts/icomoon.eot?#iefix-gn9xq8") format("embedded-opentype"), url("../fonts/icomoon.ttf?-gn9xq8") format("truetype"), url("../fonts/icomoon.woff?-gn9xq8") format("woff"), url("../fonts/icomoon.svg?-gn9xq8#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 147, ../sass/_fonts.scss */
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 161, ../sass/_fonts.scss */
+.icon-heart-outlined:before {
+  content: "\e60c";
+}
+
+/* line 164, ../sass/_fonts.scss */
+.icon-heart2:before {
+  content: "\e60d";
+}
+
+/* line 167, ../sass/_fonts.scss */
+.icon-heart:before {
+  content: "\e60b";
+}
+
+/* line 170, ../sass/_fonts.scss */
+.icon-twitter2:before {
+  content: "\e608";
+}
+
+/* line 173, ../sass/_fonts.scss */
+.icon-twitter3:before {
+  content: "\e609";
+}
+
+/* line 176, ../sass/_fonts.scss */
+.icon-twitter4:before {
+  content: "\e60a";
+}
+
+/* line 179, ../sass/_fonts.scss */
+.icon-facebook2:before {
+  content: "\e602";
+}
+
+/* line 182, ../sass/_fonts.scss */
+.icon-facebook3:before {
+  content: "\e603";
+}
+
+/* line 185, ../sass/_fonts.scss */
+.icon-github:before {
+  content: "\e604";
+}
+
+/* line 188, ../sass/_fonts.scss */
+.icon-github2:before {
+  content: "\e605";
+}
+
+/* line 191, ../sass/_fonts.scss */
+.icon-github3:before {
+  content: "\e606";
+}
+
+/* line 194, ../sass/_fonts.scss */
+.icon-github4:before {
+  content: "\e607";
+}
+
+/* line 197, ../sass/_fonts.scss */
+.icon-twitter:before {
+  content: "\e600";
+}
+
+/* line 200, ../sass/_fonts.scss */
+.icon-facebook:before {
+  content: "\e601";
+}
+
+/* line 5, ../sass/screen.scss */
+body {
+  background-color: #222;
+  font-family: "Helvetica";
+  color: #fff;
+}
+
+/* line 11, ../sass/screen.scss */
+h1 {
+  font-size: 4em;
+  text-align: center;
+  font-family: 'montserratlight';
+  text-transform: uppercase;
+  margin-bottom: 0.3em;
+}
+
+/* line 19, ../sass/screen.scss */
+h2 {
+  text-align: center;
+  font-family: 'arvoitalic';
+  font-size: 1.2em;
+}
+
+/* line 25, ../sass/screen.scss */
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* line 30, ../sass/screen.scss */
+.instance_01, .instance_02, .instance_03 {
+  height: 100vh;
+}
+
+/*
+
+  Instancia 1
+
+*/
+/* line 43, ../sass/screen.scss */
+.instance_01 {
+  overflow: hidden;
+  background-image: url("../assets/patterns/dark_geometric.png");
+}
+/* line 48, ../sass/screen.scss */
+.instance_01 .logo_codepoems {
+  display: block;
+  width: 160px;
+  margin: 50px auto;
+  margin-top: 100px;
+}
+/* line 56, ../sass/screen.scss */
+.instance_01 .subtitle {
+  color: #fff;
+}
+/* line 61, ../sass/screen.scss */
+.instance_01 .blue_title {
+  color: #7AD3D7;
+}
+/* line 69, ../sass/screen.scss */
+.instance_01 .call_to_action {
+  width: 400px;
+  margin: 20px auto;
+}
+/* line 75, ../sass/screen.scss */
+.instance_01 .button_learn_more, .instance_01 .button_view_on_github {
+  transition: all 0.2s ease-in-out;
+  background-color: #fff;
+  color: #333;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-family: "montserratlight";
+  font-size: 0.8em;
+  padding: 10px 0;
+  float: left;
+  display: inline-block;
+  width: 48%;
+  box-sizing: border-box;
+  border: 2px solid rgba(255, 255, 255, 0);
+}
+/* line 92, ../sass/screen.scss */
+.instance_01 .button_learn_more:hover, .instance_01 .button_view_on_github:hover {
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid white;
+  color: #fff;
+}
+/* line 99, ../sass/screen.scss */
+.instance_01 .button_learn_more {
+  width: 48%;
+  margin-right: 4%;
+}
+/* line 104, ../sass/screen.scss */
+.instance_01 .button_view_on_github {
+  width: 48%;
+}
+/* line 108, ../sass/screen.scss */
+.instance_01 .codepoems_screenshot {
+  margin: 100px auto;
+  display: block;
+}
+
+/*
+
+  Instancia 2
+
+*/
+/* line 122, ../sass/screen.scss */
+.instance_02 {
+  background-color: #222;
+}
+/* line 125, ../sass/screen.scss */
+.instance_02 h1 {
+  padding-top: 200px;
+}
+/* line 129, ../sass/screen.scss */
+.instance_02 .features {
+  width: 900px;
+  margin: 0 auto;
+}
+/* line 133, ../sass/screen.scss */
+.instance_02 .features img {
+  margin: 20px auto;
+}
+/* line 138, ../sass/screen.scss */
+.instance_02 .features h3 {
+  font-family: 'arvoitalic';
+}
+/* line 142, ../sass/screen.scss */
+.instance_02 .features .feature {
+  display: block;
+  width: 33%;
+  float: left;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/*
+
+  Instancia 3
+
+*/
+/* line 160, ../sass/screen.scss */
+.instance_03 {
+  background-image: url("../assets/patterns/dark_geometric.png");
+}
+/* line 165, ../sass/screen.scss */
+.instance_03 .boxes {
+  margin: 50px auto;
+  width: 100%;
+  max-width: 900px;
+  overflow: hidden;
+}
+/* line 171, ../sass/screen.scss */
+.instance_03 .boxes .download_box {
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  float: left;
+  width: 29%;
+  margin-left: 3.333%;
+  border-radius: 10px;
+  background-color: #333;
+  text-align: center;
+  height: 220px;
+}
+/* line 183, ../sass/screen.scss */
+.instance_03 .boxes .download_box:hover {
+  background-color: #000;
+  cursor: pointer;
+}
+/* line 188, ../sass/screen.scss */
+.instance_03 .boxes .os_logo {
+  top: 40%;
+  left: 50%;
+  margin-top: -30px;
+  width: 60px;
+  margin-left: -30px;
+  position: absolute;
+}
+/* line 197, ../sass/screen.scss */
+.instance_03 .boxes .os_title {
+  margin-top: 150px;
+  font-family: 'montserratregular';
+  font-size: 0.8em;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* line 205, ../sass/screen.scss */
+.instance_03 .boxes .os_data {
+  font-family: 'arvoitalic';
+  margin-top: 10px;
+  color: #bbb;
+  font-size: 0.7em;
+}
+/* line 215, ../sass/screen.scss */
+.instance_03 .social_message {
+  display: block;
+  text-align: center;
+  font-family: 'arvoitalic';
+}
+/* line 225, ../sass/screen.scss */
+.instance_03 .footer {
+  text-align: center;
+}
+/* line 229, ../sass/screen.scss */
+.instance_03 .social {
+  margin: 30px 0;
+}
+/* line 232, ../sass/screen.scss */
+.instance_03 .social li {
+  display: inline-block;
+  width: 200px;
+  height: 32px;
+  line-height: 32px;
+  font-family: "montserratregular";
+  letter-spacing: 0.1em;
+  font-size: 0.7em;
+}
+/* line 243, ../sass/screen.scss */
+.instance_03 .social li:first-of-type {
+  margin-right: 25px;
+}
+/* line 247, ../sass/screen.scss */
+.instance_03 .social li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* line 255, ../sass/screen.scss */
+.instance_03 .fb {
+  background-color: #40569D;
+  cursor: pointer;
+}
+/* line 260, ../sass/screen.scss */
+.instance_03 .fb:hover {
+  background-color: #394d8d;
+}
+/* line 264, ../sass/screen.scss */
+.instance_03 .tw {
+  background-color: #6AD0FF;
+}
+/* line 268, ../sass/screen.scss */
+.instance_03 .tw:hover {
+  background-color: #5fbbe5;
+  cursor: pointer;
+}
+/* line 273, ../sass/screen.scss */
+.instance_03 .icon-heart2 {
+  color: #F41B6B;
+}
+/* line 279, ../sass/screen.scss */
+.instance_03 h5 {
+  font-size: 0.8em;
+  font-family: "montserratregular";
+}
+/* line 282, ../sass/screen.scss */
+.instance_03 h5 a {
+  color: #fff;
+}
+/* line 286, ../sass/screen.scss */
+.instance_03 h5 a:hover {
+  color: #ccc;
+}
+
+@media (max-width: 1100px) {
+  /* line 2, ../sass/_responsive.scss */
+  .codepoems_screenshot {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 880px) {
+  /* line 13, ../sass/_responsive.scss */
+  .instance_02 {
+    height: 1700px;
+  }
+
+  /* line 17, ../sass/_responsive.scss */
+  .features {
+    min-width: 100%;
+    max-width: 100%;
+    display: block;
+    background-color: #333;
+  }
+
+  /* line 24, ../sass/_responsive.scss */
+  .feature {
+    min-width: 100%;
+    width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  /* line 33, ../sass/_responsive.scss */
+  .instance_01 h1 {
+    font-size: 3em;
+  }
+  /* line 36, ../sass/_responsive.scss */
+  .instance_01 .call_to_action {
+    width: 100%;
+  }
+}

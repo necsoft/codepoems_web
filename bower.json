@@ -1,0 +1,19 @@
+{
+  "name": "codepoems_web",
+  "version": "0.0.0",
+  "authors": [
+    "necsoft <necsoftdesign@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "animate.css": "~3.3.0"
+  }
+}

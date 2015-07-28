@@ -1,0 +1,295 @@
+@import "compass/reset";
+@import "fonts";
+
+
+body{
+  background-color: #222;
+  font-family: "Helvetica";
+  color:#fff;
+}
+
+h1{
+  font-size:4em;
+  text-align:center;
+  font-family: 'montserratlight';
+  text-transform: uppercase;
+  margin-bottom:0.3em;
+}
+
+h2{
+  text-align: center;
+  font-family: 'arvoitalic';
+  font-size:1.2em;
+}
+
+.container{
+  width:90%;
+  margin:0 auto;
+}
+
+.instance_01, .instance_02, .instance_03{
+  height:100vh;
+}
+
+
+
+/*
+
+  Instancia 1
+
+*/
+
+
+.instance_01{
+
+  overflow:hidden;
+  background-image:url("../assets/patterns/dark_geometric.png");
+
+  .logo_codepoems{
+    display:block;
+    width:160px;
+    margin:50px auto;
+    margin-top:100px;
+  }
+
+
+  .subtitle{
+    color:#fff;
+  }
+
+
+  .blue_title{
+    color:#7AD3D7;
+  }
+
+
+
+
+
+  .call_to_action{
+    width:400px;
+    margin:20px auto;
+  }
+
+
+  .button_learn_more,.button_view_on_github{
+    transition: all 0.2s ease-in-out;
+    background-color:#fff;
+    color:#333;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align:center;
+    font-family:"montserratlight";
+    font-size:0.8em;
+    padding:10px 0;
+    float:left;
+    display:inline-block;
+    width:48%;
+    box-sizing:border-box;
+    border: 2px solid rgba(255,255,255,0);
+  }
+
+  .button_learn_more:hover,.button_view_on_github:hover{
+    background-color:rgba(255,255,255,0);
+    border: 2px solid white;
+    color:#fff;
+  }
+
+
+  .button_learn_more{
+    width:48%;
+    margin-right:4%;
+  }
+
+  .button_view_on_github{
+    width:48%;
+  }
+
+  .codepoems_screenshot{
+    margin:100px auto;
+    display: block;
+  }
+
+
+}
+
+
+/*
+
+  Instancia 2
+
+*/
+.instance_02{
+  background-color:#222;
+
+  h1{
+    padding-top:200px;
+  }
+
+  .features{
+    width:900px;
+    margin:0 auto;
+
+    img{
+      // width:50%; 
+      margin: 20px auto;
+    }
+
+    h3{
+      font-family: 'arvoitalic';
+    }
+
+    .feature{
+      display:block;
+      width:33%;
+      float:left;
+      margin-top:40px;
+      margin-bottom:40px;
+      text-align:center;
+    }
+  }
+}
+
+
+/*
+
+  Instancia 3
+
+*/
+
+.instance_03{
+  background-image:url("../assets/patterns/dark_geometric.png");
+  //border:1px solid red;
+
+
+  .boxes{
+    margin:50px auto;
+    width:100%;
+    max-width: 900px;
+    overflow: hidden;
+
+    .download_box{
+      transition: all 0.5s ease-in-out;
+      position:relative;
+      float:left;
+      width:29%;
+      margin-left:3.333%;
+      border-radius: 10px;
+      background-color:#333;
+      text-align:center;
+      height:220px;
+    }
+
+    .download_box:hover{
+      background-color:#000;
+      cursor:pointer;
+    }
+
+    .os_logo{
+      top: 40%;
+      left: 50%;
+      margin-top: -30px;
+      width: 60px;
+      margin-left: -30px;
+      position: absolute;
+    }
+
+    .os_title{
+      margin-top:150px;
+      font-family: 'montserratregular';
+      font-size:0.8em;
+      text-transform:uppercase;
+      text-align:center;
+    }
+
+    .os_data{
+      font-family: 'arvoitalic';
+      margin-top:10px;
+      color:#bbb;
+      font-size:0.7em;
+    }
+
+  }
+
+
+  .social_message{
+    display:block;
+    text-align:center;
+
+    
+    font-family: 'arvoitalic';
+  }
+
+
+
+  .footer{
+    text-align: center;
+  }
+
+  .social{
+    margin: 30px 0;
+    
+    li{
+      display: inline-block;
+      width: 200px;
+      height: 32px;
+      line-height: 32px;
+      font-family:"montserratregular";
+      letter-spacing: 0.1em;
+      font-size:0.7em;
+      
+
+
+      &:first-of-type{
+        margin-right: 25px;
+      }
+
+      a{
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .fb{
+    background-color: #40569D;
+    cursor:pointer;
+  }
+
+  .fb:hover{
+    background-color: shade(#40569D,10%);
+  }
+
+  .tw{
+    background-color: #6AD0FF;
+  }
+
+  .tw:hover{
+    background-color: shade(#6AD0FF,10%);
+    cursor:pointer;
+  }
+
+  .icon-heart2{
+    color:#F41B6B;
+  }
+
+
+
+  h5{
+    font-size:0.8em;
+    font-family:"montserratregular";
+    a{
+      color:#fff;
+    }
+
+    a:hover{
+      color:#ccc;
+    }
+  }
+
+
+}
+
+
+@import "responsive";
