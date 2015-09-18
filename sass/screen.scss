@@ -162,6 +162,12 @@ h2{
   //border:1px solid red;
 
 
+  .alpha{
+    background-color: #FFFFFF;
+    color: #FF6363;
+    padding: 0px 3px;
+  }
+
   .boxes{
     margin:50px auto;
     width:100%;
@@ -178,6 +184,10 @@ h2{
       background-color:#333;
       text-align:center;
       height:220px;
+    }
+
+    .available{
+      background-color:#666666;
     }
 
     .download_box:hover{
@@ -201,6 +211,11 @@ h2{
       text-transform:uppercase;
       text-align:center;
     }
+    a{
+      color:#bbb;
+    }
+
+
 
     .os_data{
       font-family: 'arvoitalic';

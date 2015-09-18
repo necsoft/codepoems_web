@@ -358,13 +358,19 @@ h2 {
   background-image: url("../assets/patterns/dark_geometric.png");
 }
 /* line 165, ../sass/screen.scss */
+.instance_03 .alpha {
+  background-color: #FFFFFF;
+  color: #FF6363;
+  padding: 0px 3px;
+}
+/* line 171, ../sass/screen.scss */
 .instance_03 .boxes {
   margin: 50px auto;
   width: 100%;
   max-width: 900px;
   overflow: hidden;
 }
-/* line 171, ../sass/screen.scss */
+/* line 177, ../sass/screen.scss */
 .instance_03 .boxes .download_box {
   transition: all 0.5s ease-in-out;
   position: relative;
@@ -376,12 +382,16 @@ h2 {
   text-align: center;
   height: 220px;
 }
-/* line 183, ../sass/screen.scss */
+/* line 189, ../sass/screen.scss */
+.instance_03 .boxes .available {
+  background-color: #666666;
+}
+/* line 193, ../sass/screen.scss */
 .instance_03 .boxes .download_box:hover {
   background-color: #000;
   cursor: pointer;
 }
-/* line 188, ../sass/screen.scss */
+/* line 198, ../sass/screen.scss */
 .instance_03 .boxes .os_logo {
   top: 40%;
   left: 50%;
@@ -390,7 +400,7 @@ h2 {
   margin-left: -30px;
   position: absolute;
 }
-/* line 197, ../sass/screen.scss */
+/* line 207, ../sass/screen.scss */
 .instance_03 .boxes .os_title {
   margin-top: 150px;
   font-family: 'montserratregular';
@@ -398,28 +408,32 @@ h2 {
   text-transform: uppercase;
   text-align: center;
 }
-/* line 205, ../sass/screen.scss */
+/* line 214, ../sass/screen.scss */
+.instance_03 .boxes a {
+  color: #bbb;
+}
+/* line 220, ../sass/screen.scss */
 .instance_03 .boxes .os_data {
   font-family: 'arvoitalic';
   margin-top: 10px;
   color: #bbb;
   font-size: 0.7em;
 }
-/* line 215, ../sass/screen.scss */
+/* line 230, ../sass/screen.scss */
 .instance_03 .social_message {
   display: block;
   text-align: center;
   font-family: 'arvoitalic';
 }
-/* line 225, ../sass/screen.scss */
+/* line 240, ../sass/screen.scss */
 .instance_03 .footer {
   text-align: center;
 }
-/* line 229, ../sass/screen.scss */
+/* line 244, ../sass/screen.scss */
 .instance_03 .social {
   margin: 30px 0;
 }
-/* line 232, ../sass/screen.scss */
+/* line 247, ../sass/screen.scss */
 .instance_03 .social li {
   display: inline-block;
   width: 200px;
@@ -429,48 +443,48 @@ h2 {
   letter-spacing: 0.1em;
   font-size: 0.7em;
 }
-/* line 243, ../sass/screen.scss */
+/* line 258, ../sass/screen.scss */
 .instance_03 .social li:first-of-type {
   margin-right: 25px;
 }
-/* line 247, ../sass/screen.scss */
+/* line 262, ../sass/screen.scss */
 .instance_03 .social li a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
 }
-/* line 255, ../sass/screen.scss */
+/* line 270, ../sass/screen.scss */
 .instance_03 .fb {
   background-color: #40569D;
   cursor: pointer;
 }
-/* line 260, ../sass/screen.scss */
+/* line 275, ../sass/screen.scss */
 .instance_03 .fb:hover {
   background-color: #394d8d;
 }
-/* line 264, ../sass/screen.scss */
+/* line 279, ../sass/screen.scss */
 .instance_03 .tw {
   background-color: #6AD0FF;
 }
-/* line 268, ../sass/screen.scss */
+/* line 283, ../sass/screen.scss */
 .instance_03 .tw:hover {
   background-color: #5fbbe5;
   cursor: pointer;
 }
-/* line 273, ../sass/screen.scss */
+/* line 288, ../sass/screen.scss */
 .instance_03 .icon-heart2 {
   color: #F41B6B;
 }
-/* line 279, ../sass/screen.scss */
+/* line 294, ../sass/screen.scss */
 .instance_03 h5 {
   font-size: 0.8em;
   font-family: "montserratregular";
 }
-/* line 282, ../sass/screen.scss */
+/* line 297, ../sass/screen.scss */
 .instance_03 h5 a {
   color: #fff;
 }
-/* line 286, ../sass/screen.scss */
+/* line 301, ../sass/screen.scss */
 .instance_03 h5 a:hover {
   color: #ccc;
 }
